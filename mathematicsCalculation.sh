@@ -69,3 +69,13 @@ done
 
 echo ${mathematicsArray[@]}
 
+function sortArrayAscending() {
+  sortArray=$(printf "%s\n" ${mathematicsArray[@]} | sort -n )
+}
+echo "$( sortArrayAscending  )"
+
+function sortArrayDescending () {
+  sortArray=$(printf "%s\n" ${mathematicsArray[@]} | sort -nr )
+}
+echo "$( sortArrayDescending  )"
+
