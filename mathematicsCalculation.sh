@@ -17,7 +17,7 @@ echo $result
 }
 
 result2="$( mathematics1 )"
-echo $result1
+echo $result2
 
 function mathematics2() {
 result=$(( $value1 * $value2 + $value3 ))
@@ -25,5 +25,13 @@ echo $result
 }
 
 result3="$( mathematics2 )"
-echo $result1
+echo $result3
+
+function mathematics3() {
+result=$(( $value1 * $value2 + $value3 ))
+echo $result 
+}
+
+result4="$( mathematics3 )"
+echo $result4
 
