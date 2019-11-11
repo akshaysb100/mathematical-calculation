@@ -32,6 +32,6 @@ result=$(( $value1 * $value2 + $value3 ))
 echo $result 
 }
 
+
 result4="$( mathematics3 )"
 echo $result4
-
