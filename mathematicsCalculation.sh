@@ -35,3 +35,13 @@ echo $result
 
 result4="$( mathematics3 )"
 echo $result4
+
+function mathematics4() {
+result=$(( $value1 % $value2 + $value3 ))
+echo $result 
+}
+
+
+result5="$( mathematics4 )"
+echo $result5
+
