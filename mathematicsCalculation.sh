@@ -10,8 +10,6 @@ echo $result
 
 result1="$( mathematics ) "
 echo $result1
-<<<<<<< HEAD
-=======
 
 function mathematics1() {
 result=$(( $value1 * $value2 + $value3 ))
@@ -20,4 +18,12 @@ echo $result
 
 result2="$( mathematics1 )"
 echo $result1
->>>>>>> mathamatics1
+
+function mathematics2() {
+result=$(( $value1 * $value2 + $value3 ))
+echo $result 
+}
+
+result3="$( mathematics2 )"
+echo $result1
+
