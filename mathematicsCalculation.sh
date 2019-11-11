@@ -47,7 +47,6 @@ echo $result
 
 }
 
-
 result5="$( mathematics4 )"
 echo $result5
 
@@ -61,4 +60,12 @@ dictionary[4]="$( mathematics3  )"
 dictionary[5]="$( mathematics4  )"
 
 echo ${dictionary[@]}
+
+for (( counter=1; counter<=5; counter++ ))
+do
+  echo ${dictionary[1]}
+ mathematicsArray[((counter))]=${dictionary[$counter]}
+done
+
+echo ${mathematicsArray[@]}
 
